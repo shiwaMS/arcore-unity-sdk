@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 54f9af226c3814645996a709f2a94f28
+timeCreated: 1510604601
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Head
+    100002: Hips
+    100004: HipsTranslation
+    100006: joint1
+    100008: joint2
+    100010: joint3
+    100012: joint4
+    100014: joint5
+    100016: joint6
+    100018: LeftArm
+    100020: LeftFoot
+    100022: LeftForeArm
+    100024: LeftToeBase
+    100026: LeftUpLeg
+    100028: MixerBot_Modeling_0018_ChestPiece_GEO
+    100030: MixerBot_Modeling_0018_Head_GEO1
+    100032: MixerBot_Modeling_0018_L_Arm_GRP
+    100034: MixerBot_Modeling_0018_L_Bicep_GEO
+    100036: MixerBot_Modeling_0018_L_Elbow_GEO
+    100038: MixerBot_Modeling_0018_L_Femur_GEO
+    100040: MixerBot_Modeling_0018_L_Finger1_GEO
+    100042: MixerBot_Modeling_0018_L_Finger2_GEO
+    100044: MixerBot_Modeling_0018_L_Finger3_GEO
+    100046: MixerBot_Modeling_0018_L_Forearm_GEO
+    100048: MixerBot_Modeling_0018_L_Hip_GEO
+    100050: MixerBot_Modeling_0018_L_Knee_GEO
+    100052: MixerBot_Modeling_0018_L_Leg_GRP
+    100054: MixerBot_Modeling_0018_L_Shin_GEO
+    100056: MixerBot_Modeling_0018_L_Shldr_GEO
+    100058: MixerBot_Modeling_0018_L_Thumb_GEO
+    100060: MixerBot_Modeling_0018_L_Wrist_GEO
+    100062: MixerBot_Modeling_0018_Pelvis_GEO
+    100064: MixerBot_Modeling_0018_Pelvis_GRP
+    100066: MixerBot_Modeling_0018_R_Arm_GRP
+    100068: MixerBot_Modeling_0018_R_Bicep_GEO
+    100070: MixerBot_Modeling_0018_R_Elbow_GEO
+    100072: MixerBot_Modeling_0018_R_Femur_GEO
+    100074: MixerBot_Modeling_0018_R_Finger1_GEO
+    100076: MixerBot_Modeling_0018_R_Finger2_GEO
+    100078: MixerBot_Modeling_0018_R_Finger3_GEO
+    100080: MixerBot_Modeling_0018_R_Forearm_GEO
+    100082: MixerBot_Modeling_0018_R_Hip_GEO
+    100084: MixerBot_Modeling_0018_R_Knee_GEO
+    100086: MixerBot_Modeling_0018_R_Leg_GRP
+    100088: MixerBot_Modeling_0018_R_Shin_GEO
+    100090: MixerBot_Modeling_0018_R_Shldr_GEO
+    100092: MixerBot_Modeling_0018_R_Thumb_GEO
+    100094: MixerBot_Modeling_0018_R_Wrist_GEO
+    100096: MixerBot_Modeling_0018_Robot_GRP
+    100098: MixerBot_Modeling_0018_Shldr_GEO
+    100100: MixerBot_Modeling_0018_Shldr_GRP
+    100102: MixerBot_Modeling_0018_Torso_GEO
+    100104: MixerBot_Modeling_0018_Torso_GRP
+    100106: Neck
+    100108: QuickRigCharacter_Guides
+    100110: Reference
+    100112: RightArm
+    100114: RightFoot
+    100116: RightForeArm
+    100118: RightToeBase
+    100120: RightUpLeg
+    100122: //RootNode
+    100124: Robot_Model
+    100126: Spine2
+    400000: Head
+    400002: Hips
+    400004: HipsTranslation
+    400006: joint1
+    400008: joint2
+    400010: joint3
+    400012: joint4
+    400014: joint5
+    400016: joint6
+    400018: LeftArm
+    400020: LeftFoot
+    400022: LeftForeArm
+    400024: LeftToeBase
+    400026: LeftUpLeg
+    400028: MixerBot_Modeling_0018_ChestPiece_GEO
+    400030: MixerBot_Modeling_0018_Head_GEO1
+    400032: MixerBot_Modeling_0018_L_Arm_GRP
+    400034: MixerBot_Modeling_0018_L_Bicep_GEO
+    400036: MixerBot_Modeling_0018_L_Elbow_GEO
+    400038: MixerBot_Modeling_0018_L_Femur_GEO
+    400040: MixerBot_Modeling_0018_L_Finger1_GEO
+    400042: MixerBot_Modeling_0018_L_Finger2_GEO
+    400044: MixerBot_Modeling_0018_L_Finger3_GEO
+    400046: MixerBot_Modeling_0018_L_Forearm_GEO
+    400048: MixerBot_Modeling_0018_L_Hip_GEO
+    400050: MixerBot_Modeling_0018_L_Knee_GEO
+    400052: MixerBot_Modeling_0018_L_Leg_GRP
+    400054: MixerBot_Modeling_0018_L_Shin_GEO
+    400056: MixerBot_Modeling_0018_L_Shldr_GEO
+    400058: MixerBot_Modeling_0018_L_Thumb_GEO
+    400060: MixerBot_Modeling_0018_L_Wrist_GEO
+    400062: MixerBot_Modeling_0018_Pelvis_GEO
+    400064: MixerBot_Modeling_0018_Pelvis_GRP
+    400066: MixerBot_Modeling_0018_R_Arm_GRP
+    400068: MixerBot_Modeling_0018_R_Bicep_GEO
+    400070: MixerBot_Modeling_0018_R_Elbow_GEO
+    400072: MixerBot_Modeling_0018_R_Femur_GEO
+    400074: MixerBot_Modeling_0018_R_Finger1_GEO
+    400076: MixerBot_Modeling_0018_R_Finger2_GEO
+    400078: MixerBot_Modeling_0018_R_Finger3_GEO
+    400080: MixerBot_Modeling_0018_R_Forearm_GEO
+    400082: MixerBot_Modeling_0018_R_Hip_GEO
+    400084: MixerBot_Modeling_0018_R_Knee_GEO
+    400086: MixerBot_Modeling_0018_R_Leg_GRP
+    400088: MixerBot_Modeling_0018_R_Shin_GEO
+    400090: MixerBot_Modeling_0018_R_Shldr_GEO
+    400092: MixerBot_Modeling_0018_R_Thumb_GEO
+    400094: MixerBot_Modeling_0018_R_Wrist_GEO
+    400096: MixerBot_Modeling_0018_Robot_GRP
+    400098: MixerBot_Modeling_0018_Shldr_GEO
+    400100: MixerBot_Modeling_0018_Shldr_GRP
+    400102: MixerBot_Modeling_0018_Torso_GEO
+    400104: MixerBot_Modeling_0018_Torso_GRP
+    400106: Neck
+    400108: QuickRigCharacter_Guides
+    400110: Reference
+    400112: RightArm
+    400114: RightFoot
+    400116: RightForeArm
+    400118: RightToeBase
+    400120: RightUpLeg
+    400122: //RootNode
+    400124: Robot_Model
+    400126: Spine2
+    2100000: MixerBot_Modeling_0018_lambert3
+    2100002: MixerBot_Modeling_0018_blinn2
+    2100004: MixerBot_Modeling_0018_blinn1
+    4300000: MixerBot_Modeling_0018_L_Bicep_GEO
+    4300002: MixerBot_Modeling_0018_L_Elbow_GEO
+    4300004: MixerBot_Modeling_0018_L_Forearm_GEO
+    4300006: MixerBot_Modeling_0018_L_Wrist_GEO
+    4300008: MixerBot_Modeling_0018_L_Shldr_GEO
+    4300010: MixerBot_Modeling_0018_L_Thumb_GEO
+    4300012: MixerBot_Modeling_0018_L_Finger1_GEO
+    4300014: MixerBot_Modeling_0018_L_Finger2_GEO
+    4300016: MixerBot_Modeling_0018_L_Finger3_GEO
+    4300018: MixerBot_Modeling_0018_R_Bicep_GEO
+    4300020: MixerBot_Modeling_0018_R_Elbow_GEO
+    4300022: MixerBot_Modeling_0018_R_Forearm_GEO
+    4300024: MixerBot_Modeling_0018_R_Wrist_GEO
+    4300026: MixerBot_Modeling_0018_R_Shldr_GEO
+    4300028: MixerBot_Modeling_0018_R_Thumb_GEO
+    4300030: MixerBot_Modeling_0018_R_Finger1_GEO
+    4300032: MixerBot_Modeling_0018_R_Finger2_GEO
+    4300034: MixerBot_Modeling_0018_R_Finger3_GEO
+    4300036: MixerBot_Modeling_0018_Shldr_GEO
+    4300038: MixerBot_Modeling_0018_ChestPiece_GEO
+    4300040: MixerBot_Modeling_0018_Torso_GEO
+    4300042: MixerBot_Modeling_0018_Pelvis_GEO
+    4300044: MixerBot_Modeling_0018_L_Shin_GEO
+    4300046: MixerBot_Modeling_0018_L_Knee_GEO
+    4300048: MixerBot_Modeling_0018_L_Femur_GEO
+    4300050: MixerBot_Modeling_0018_L_Hip_GEO
+    4300052: MixerBot_Modeling_0018_R_Knee_GEO
+    4300054: MixerBot_Modeling_0018_R_Femur_GEO
+    4300056: MixerBot_Modeling_0018_R_Hip_GEO
+    4300058: MixerBot_Modeling_0018_R_Shin_GEO
+    4300060: MixerBot_Modeling_0018_Head_GEO1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: MixerBot_Modeling_0018_ChestPiece_GEO
+    13700002: MixerBot_Modeling_0018_Head_GEO1
+    13700004: MixerBot_Modeling_0018_L_Bicep_GEO
+    13700006: MixerBot_Modeling_0018_L_Elbow_GEO
+    13700008: MixerBot_Modeling_0018_L_Femur_GEO
+    13700010: MixerBot_Modeling_0018_L_Finger1_GEO
+    13700012: MixerBot_Modeling_0018_L_Finger2_GEO
+    13700014: MixerBot_Modeling_0018_L_Finger3_GEO
+    13700016: MixerBot_Modeling_0018_L_Forearm_GEO
+    13700018: MixerBot_Modeling_0018_L_Hip_GEO
+    13700020: MixerBot_Modeling_0018_L_Knee_GEO
+    13700022: MixerBot_Modeling_0018_L_Shin_GEO
+    13700024: MixerBot_Modeling_0018_L_Shldr_GEO
+    13700026: MixerBot_Modeling_0018_L_Thumb_GEO
+    13700028: MixerBot_Modeling_0018_L_Wrist_GEO
+    13700030: MixerBot_Modeling_0018_Pelvis_GEO
+    13700032: MixerBot_Modeling_0018_R_Bicep_GEO
+    13700034: MixerBot_Modeling_0018_R_Elbow_GEO
+    13700036: MixerBot_Modeling_0018_R_Femur_GEO
+    13700038: MixerBot_Modeling_0018_R_Finger1_GEO
+    13700040: MixerBot_Modeling_0018_R_Finger2_GEO
+    13700042: MixerBot_Modeling_0018_R_Finger3_GEO
+    13700044: MixerBot_Modeling_0018_R_Forearm_GEO
+    13700046: MixerBot_Modeling_0018_R_Hip_GEO
+    13700048: MixerBot_Modeling_0018_R_Knee_GEO
+    13700050: MixerBot_Modeling_0018_R_Shin_GEO
+    13700052: MixerBot_Modeling_0018_R_Shldr_GEO
+    13700054: MixerBot_Modeling_0018_R_Thumb_GEO
+    13700056: MixerBot_Modeling_0018_R_Wrist_GEO
+    13700058: MixerBot_Modeling_0018_Shldr_GEO
+    13700060: MixerBot_Modeling_0018_Torso_GEO
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MixerBot_Modeling_0018_blinn1
+    second: {fileID: 2100000, guid: 79e56377b21e3466f96640469723e784, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MixerBot_Modeling_0018_blinn2
+    second: {fileID: 2100000, guid: 109ad8789fc074e64a20c4d7f945ad61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MixerBot_Modeling_0018_lambert3
+    second: {fileID: 2100000, guid: b4493fc6b42f04aebb7ac98c13cc550a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

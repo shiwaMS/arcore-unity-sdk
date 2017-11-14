@@ -144,10 +144,19 @@ namespace GoogleARCore.HelloAR
                 andyObject.transform.LookAt(m_firstPersonCamera.transform);
                 andyObject.transform.rotation = Quaternion.Euler(0.0f,
                     andyObject.transform.rotation.eulerAngles.y, andyObject.transform.rotation.z);
+				andyObject.transform.localScale = new Vector3(0.001F, 0.001F, 0.001F);
 
                 // Use a plane attachment component to maintain Andy's y-offset from the plane
                 // (occurs after anchor updates).
-                andyObject.GetComponent<PlaneAttachment>().Attach(hit.Plane);
+//                andyObject.GetComponent<PlaneAttachment>().Attach(hit.Plane);
+
+				Animator animator = andyObject.GetComponent<Animator> ();
+				if (animator != null) {
+					Debug.Log ("animator is not null");
+					animator.Play ("Cheer");
+				} else {
+					Debug.Log ("animator is null");
+				}
             }
         }
 
