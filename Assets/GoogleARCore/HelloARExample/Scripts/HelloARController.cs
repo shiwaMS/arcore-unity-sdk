@@ -129,35 +129,26 @@ namespace GoogleARCore.HelloAR
             TrackableHit hit;
             TrackableHitFlag raycastFilter = TrackableHitFlag.PlaneWithinBounds | TrackableHitFlag.PlaneWithinPolygon;
 
-            if (Session.Raycast(m_firstPersonCamera.ScreenPointToRay(touch.position), raycastFilter, out hit))
-            {
-                // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
-                // world evolves.
-                var anchor = Session.CreateAnchor(hit.Point, Quaternion.identity);
+			if (Session.Raycast (m_firstPersonCamera.ScreenPointToRay (touch.position), raycastFilter, out hit)) {
+					// Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
+					// world evolves.
+					var anchor = Session.CreateAnchor (hit.Point, Quaternion.identity);
 
-                // Intanstiate an Andy Android object as a child of the anchor; it's transform will now benefit
-                // from the anchor's tracking.
-                var andyObject = Instantiate(m_andyAndroidPrefab, hit.Point, Quaternion.identity,
-                    anchor.transform);
+					// Intanstiate an Andy Android object as a child of the anchor; it's transform will now benefit
+					// from the anchor's tracking.
+					var andyObject = Instantiate (m_andyAndroidPrefab, hit.Point, Quaternion.identity,
+						anchor.transform);
 
-                // Andy should look at the camera but still be flush with the plane.
-                andyObject.transform.LookAt(m_firstPersonCamera.transform);
-                andyObject.transform.rotation = Quaternion.Euler(0.0f,
-                    andyObject.transform.rotation.eulerAngles.y, andyObject.transform.rotation.z);
-				andyObject.transform.localScale = new Vector3(0.001F, 0.001F, 0.001F);
+					// Andy should look at the camera but still be flush with the plane.
+					andyObject.transform.LookAt (m_firstPersonCamera.transform);
+					andyObject.transform.rotation = Quaternion.Euler (0.0f,
+						andyObject.transform.rotation.eulerAngles.y, andyObject.transform.rotation.z);
+					andyObject.transform.localScale = new Vector3 (0.001F, 0.001F, 0.001F);
 
-                // Use a plane attachment component to maintain Andy's y-offset from the plane
-                // (occurs after anchor updates).
-//                andyObject.GetComponent<PlaneAttachment>().Attach(hit.Plane);
-
-				Animator animator = andyObject.GetComponent<Animator> ();
-				if (animator != null) {
-					Debug.Log ("animator is not null");
-					animator.Play ("Cheer");
-				} else {
-					Debug.Log ("animator is null");
-				}
-            }
+					// Use a plane attachment component to maintain Andy's y-offset from the plane
+					// (occurs after anchor updates).
+					andyObject.GetComponent<PlaneAttachment> ().Attach (hit.Plane);
+			}
         }
 
         /// <summary>

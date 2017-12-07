@@ -258,6 +258,7 @@ MonoBehaviour:
   m_andyAndroidPrefab: {fileID: 1715184054945170, guid: 128af8b810beb95439fb91d3f7955f56,
     type: 2}
   m_searchingForPlaneUI: {fileID: 1133631540}
+  robotOnScreenCap: 1
 --- !u!20 &989943870 stripped
 Camera:
   m_PrefabParentObject: {fileID: 20362215073346118, guid: c10877f7cd5764de18d46d7b777d1faa,
